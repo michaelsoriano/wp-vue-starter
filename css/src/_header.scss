@@ -1,0 +1,21 @@
+
+.top-nav {
+    background-color:$light-grey;
+    color:$primary-color;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.main-header {
+    border-bottom:1px solid $light-grey;
+    margin-bottom:35px;
+    padding-top:45px;
+    padding-bottom:35px;
+}
+.home .main-header {
+    margin-bottom:0;
+}
+.blogname {
+    font-size:60px;
+    line-height: 64px;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}

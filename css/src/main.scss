@@ -1,0 +1,74 @@
+$light-grey : #ebebeb;
+$med-grey : #a8a8a8;
+$primary-color: #000;
+
+@import 'jumbotron';
+@import 'header';
+@import 'sidebar';
+@import 'comments';
+@import 'footer';
+
+.latest-title {
+    margin-bottom:25px;
+}
+.latest-title span{
+    font-style:italic;
+    font-size:12px;
+}
+.main-title {
+    text-transform: capitalize;
+    margin-bottom:15px;
+}
+.search-wrapper {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.single h1.post-title, 
+.single h2.comments-title{
+    margin-bottom:25px;
+    font-weight: 100;
+    padding-bottom:15px;
+    border-bottom:1px solid #ebebeb;
+}
+.the-loop {
+    margin:0 0 0 0;
+    padding:0 0 0 0;
+}
+.the-loop li {
+    list-style: none;
+}
+.the-loop .title {
+    font-size:24px;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.meta {
+    margin-bottom:5px;
+}
+.meta, 
+.meta a {
+    color: $med-grey;
+}
+.fade-in-enter-active {
+    transition: all .6s ease;
+}
+.fade-in-leave-active {
+transition: all .1s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.fade-in-enter, .fade-in-leave-to
+/* .slide-fade-leave-active below version 2.1.8 */ { 
+opacity: 0;
+}
+.content {
+    margin-bottom: 35px;
+}
+.content-area img, 
+.content img {
+    max-width:100%;
+    margin-top:5px;
+    margin-bottom:15px;
+}
+.pagination {
+    margin-top:30px;
+}

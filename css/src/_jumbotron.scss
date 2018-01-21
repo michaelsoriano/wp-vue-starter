@@ -1,0 +1,18 @@
+.jumbotron {
+    margin-bottom:3rem;
+    background: linear-gradient(180deg,#9f1c82,#772a66);
+    padding: 9rem 3rem 8rem;
+    border-radius:0;
+    color:#fff;
+    text-align: center;  
+    h1 {
+        margin-bottom: .8rem;
+    }
+    .lead {
+        margin-bottom: .8rem;
+    }
+    hr {
+        border-top: 1px solid #be86b2;
+        border-bottom: 1px solid #52003f;
+    }
+}
