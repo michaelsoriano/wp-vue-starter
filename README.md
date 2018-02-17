@@ -1,7 +1,8 @@
 # wp-vue-starter
 
-This is a WordPress theme that uses the framework VueJS as the rendering framework. 
+A basic WordPress (starter) theme that uses VueJS as the front-end rendering framework. Theme templates are Vue components and supports the loop, home, page, single, search, 404, paging and comments. Looks like a traditional "blog" and "Bootstrap" - which is serves as a good starting point for many projects.
 
+More information can be found in this post: http://michaelsoriano.com/wordpress-starter-theme-using-vuejs/
 
 ## USES THE FOLLOWING
 
