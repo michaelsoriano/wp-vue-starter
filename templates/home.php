@@ -27,7 +27,7 @@
 
 </div>
 <footer-component></footer-component>
-<div>
+</div>
 
 
 </template>   
